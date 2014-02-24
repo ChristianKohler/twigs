@@ -1,0 +1,26 @@
+<h1><code ng:non-bindable="">DevelopmentInfoRequestInterceptorProvider</code>
+<div><span class="hint">provider in module <code ng:non-bindable="">twigs.devel</code>
+</span>
+</div>
+</h1>
+<div><h2 id="description">Description</h2>
+<div class="description"><div class="twigs-devel-provider-page twigs-devel-provider-developmentinforequestinterceptorprovider-page"><p>Use this provider to configure which XHTTPRequest to include in the development info footer.</p>
+<pre><code class="lang-javascript">var App = angular.module(&#39;Main&#39;,[&#39;twigs.devel&#39;]);
+
+App.config(function (DevelopmentInfoRequestInterceptorProvider) {
+
+// define your routes as usual
+DevelopmentInfoRequestInterceptorProvider.setUrlFilter(/\/ws\/rest\//);
+
+});</code></pre>
+</div></div>
+<div class="member method"><h2 id="methods">Methods</h2>
+<ul class="methods"><li><h3 id="methods_seturlfilter">setUrlFilter(pattern)</h3>
+<div class="seturlfilter"><div class="twigs-devel-provider-page twigs-devel-provider-developmentinforequestinterceptorprovider-seturlfilter-page"><p>Pass in a regex pattern (e.g. <code>/\/ws\/rest\//</code>) to filter XHTTP request urls. Most of the time,
+you only want to include REST request and exclude angular&#39;s request to templates etc.</p>
+</div><h5 id="methods_seturlfilter_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>pattern</td><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="twigs-devel-provider-page twigs-devel-provider-developmentinforequestinterceptorprovider-seturlfilter-page"><p>A regex pattern to filter XHTTP Request urls</p>
+</div></td></tr></tbody></table></div>
+</li>
+</ul>
+</div>
+</div>

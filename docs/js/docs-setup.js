@@ -23,6 +23,33 @@ NG_DOCS={
     },
     {
       "section": "api",
+      "id": "twigs.devel.controller:DevelopmentInfoCtrl",
+      "shortName": "DevelopmentInfoCtrl",
+      "type": "object",
+      "moduleName": "twigs.devel",
+      "shortDescription": "Provides a scope which contains the gathered development Information.",
+      "keywords": "access api btn btn-default btn-xs class container controller devel devel-error devel-footer devel-request development developmentinfoctrl error errors example gathered html info json label label-danger label-success markup ng-class ng-click ng-controller ng-repeat ng-show object page-header payload request requests response scope serverrequests showresponse status translate twigs url"
+    },
+    {
+      "section": "api",
+      "id": "twigs.devel.service:DevelopmentInfoService",
+      "shortName": "DevelopmentInfoService",
+      "type": "service",
+      "moduleName": "twigs.devel",
+      "shortDescription": "Provides functionality for gathering and displaying devel/debug information.",
+      "keywords": "addition api application custom data devel developmentinfoservice display displayed displaying error errors footer function functionality gathering happend invoke javascript object payload register report reporterror service services twigs watch watchcustomdata"
+    },
+    {
+      "section": "api",
+      "id": "twigs.devel.service:DevelopmentInfoServiceProvider",
+      "shortName": "DevelopmentInfoServiceProvider",
+      "type": "object",
+      "moduleName": "twigs.devel",
+      "shortDescription": "Inject into your config function to set a url filter pattern.",
+      "keywords": "angular api app config devel developmentinfoserviceprovider exclude filter function include inject javascript object pass pattern regex request rest service set seturlfilterpattern templates time twigs url urls xhttp"
+    },
+    {
+      "section": "api",
       "id": "twigs.flow.provider:FlowProvider",
       "shortName": "FlowProvider",
       "type": "object",
