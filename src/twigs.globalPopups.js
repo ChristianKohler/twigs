@@ -87,6 +87,7 @@
  *
  * ### Predefined Popups are:
  * These are all preconfigured Popups. You can find a more detailed description on some of the predefined methods further below.
+ *
  * * GlobalPopups.infoDialog(String message, String popupTitle, String okButtonText);
  * * GlobalPopups.warningDialog(String message, String popupTitle, String okButtonText);
  * * GlobalPopups.errorDialog(String message, String popupTitle, String okButtonText);
