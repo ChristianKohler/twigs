@@ -1,4 +1,7 @@
-.idea
-components
-dist
 node_modules
+.tmp
+.sass-cache
+components
+.idea/
+*.orig
+test-results.xml
