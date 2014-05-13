@@ -2,10 +2,11 @@ node_modules
 .tmp
 .sass-cache
 components
-.idea/
+.idea
 *.orig
 test-results.xml
 src
 test
 styles
 templates
+coverage

@@ -23,6 +23,24 @@ NG_DOCS={
     },
     {
       "section": "api",
+      "id": "twigs.choose.directive:twgChooseMultiple",
+      "shortName": "twgChooseMultiple",
+      "type": "directive",
+      "moduleName": "twigs.choose",
+      "shortDescription": "Creates a ui-select2 choose multi-select element.",
+      "keywords": "api array attribute attributes changed choice choices choose creates directive displayed dropdown element equal mapping model multi-select object properly selecting text twigs ui-select2 variable work"
+    },
+    {
+      "section": "api",
+      "id": "twigs.choose.directive:twgChooseSingle",
+      "shortName": "twgChooseSingle",
+      "type": "directive",
+      "moduleName": "twigs.choose",
+      "shortDescription": "Creates a ui-select2 choose dropdown element.",
+      "keywords": "api array attribute attributes changed choice choices choose creates directive displayed dropdown element equal mapping model object properly selecting text twigs ui-select2 variable work"
+    },
+    {
+      "section": "api",
       "id": "twigs.devel.controller:DevelopmentInfoCtrl",
       "shortName": "DevelopmentInfoCtrl",
       "type": "object",
@@ -136,7 +154,7 @@ NG_DOCS={
       "type": "object",
       "moduleName": "twigs.menu",
       "shortDescription": "MenuProvider can be used to define menus globally which can later be used in multiple views.",
-      "keywords": "access accessible active additem adds angular api application attribute block child children class clicked complex config configuration configured content context corresponding create createmenu creates createsubmenu current currently default define defined defines depend described details determined direct directive directly display displayed enforced event example exists fa fa-desktop fa-lg fa-lock filtered function functionality globally href html iconclass included instance item itemname itemoptions items iterate javascript key length link list loaded loading location login main_menu main_menu_home main_menu_orders main_menu_orders_new_order main_menu_orders_overview main_menu_settings main_menu_settings_roles main_menu_settings_users mainmenu mapped matches meet menu menu-hover menu-icon menu-name menuitem menuitems menuname menuoptions menuprovider menus methods module multiple myapp needed nested ng-class object openable opened options order orders ordersmenu overview parent path pre predefined property protected protectedrouteprovider provider re-filtering referenced removed removemenu removes render restriction returns role roles root route security settings-menu settingsmenu setuserloadedeventname siblings signals strictly structure submenu submenu-label submenuitem submenus successful successfull template templateurl text translation triggers true twgmenu twigs undefined unique usage user userinitialized userloadedeventname users var views window x-ng-class x-ng-href x-ng-if x-ng-repeat"
+      "keywords": "access accessible active activeroute additem adds angular api application attribute block child children class clicked complex config configuration configured content context corresponding create createmenu creates createsubmenu current currently default define defined defines depend described details determined direct directive directly display displayed enforced event example exists fa fa-desktop fa-lg fa-lock filtered function functionality globally href html iconclass included instance item itemname itemoptions items iterate javascript key length link list loaded loading location login main_menu main_menu_home main_menu_orders main_menu_orders_new_order main_menu_orders_overview main_menu_settings main_menu_settings_roles main_menu_settings_users mainmenu mapped mark marks matches meet menu menu-hover menu-icon menu-name menuitem menuitems menuname menuoptions menuprovider menus methods module multiple myapp navigating needed nested ng-class object openable opened options order orders ordersmenu overview parent path pre predefined property protected protectedrouteprovider provider re-filtering referenced regex removed removemenu removes render restriction returns role roles root route security settings-menu settingsmenu setuserloadedeventname siblings signals strictly structure submenu submenu-label submenuitem submenus successful successfull template templateurl text translation triggers true twgmenu twigs undefined unique usage user userinitialized userloadedeventname users var views window x-ng-class x-ng-href x-ng-if x-ng-repeat"
     },
     {
       "section": "api",
@@ -145,7 +163,7 @@ NG_DOCS={
       "type": "object",
       "moduleName": "twigs.protectedRoutes",
       "shortDescription": "In an application that uses a permission model, we&#39;d like to protect some views from",
-      "keywords": "$routeprovider _neededroles_ access additionally admin allows angular api app application appropriate changes config configure controller define depends display evaluate event forward function handled homectrl html javascript loader location main message model module needed neededroles note object permission prevented property protect protected protectedroute protectedrouteprovider protectedroutes provider registered required roles route route-change routechangestart routes security settingsctrl standard templateurl thrown twigs unauthorized user user-roles var view views"
+      "keywords": "$routeprovider _authenticated_ _neededroles_ access additionally admin allows angular api app application appropriate authenticated changes check config configure controller define depends display don evaluate event forward function handled homectrl html javascript loader location logged main message model module needed neededroles note object permission prevented property protect protected protectedroute protectedrouteprovider protectedroutes provider registered required role roles route route-change routechangestart routes security set settingsctrl specific standard templateurl thrown true twigs unauthorized user user-roles var view views"
     },
     {
       "section": "api",
@@ -198,7 +216,7 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "twigs.sortable",
       "shortDescription": "In a modern user interface, we expect tables to be sortable.",
-      "keywords": "addition api arrows ascending attribute classes click column css data define descending directive dummydata easy enables example expect header headers html interface marker modern ng-repeat ngrepeat number orderby rows scope second set sort sortable sorted specific styling tables td twg-sortable twgsortable twigs user usual variables"
+      "keywords": "add addition allows api arrows ascending attribute classes click column controller css data define descending directive dummydata easy enables ensures example expect header headers html interface marker modern multiple ng-repeat ngrepeat number orderby rows scope second separate set sort sortable sorted specific styling table tables tag td twg-sortable twg-sortabletable twgsortable twigs user usual variables view"
     },
     {
       "section": "api",
