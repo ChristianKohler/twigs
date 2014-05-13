@@ -5,3 +5,7 @@ components
 .idea/
 *.orig
 test-results.xml
+src
+test
+styles
+templates
