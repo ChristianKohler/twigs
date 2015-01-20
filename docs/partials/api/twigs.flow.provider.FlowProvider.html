@@ -12,7 +12,7 @@ It allows you to define allowed transitions between steps and gives you easy acc
 <p>In the <strong>config</strong> function of your application&#39;s main module, you can define the flows:</p>
 <pre><code class="lang-javascript">var App = angular.module(&#39;Main&#39;,[&#39;twigs.flow&#39;]);
 
-App.config(function ($routeProvider,FlowProvider) {
+App.config(function ($routeProvider, FlowProvider) {
 
 // define your routes as usual
 $routeProvider
@@ -30,7 +30,7 @@ $routeProvider
     });
 
 // define a flow
-$flowProvider.flow(&#39;myWizard&#39;)
+FlowProvider.flow(&#39;myWizard&#39;)
     .step({
         &#39;id&#39;: &#39;first&#39;,  // a unique step id within this flow.
         &#39;route&#39;: &#39;/firstStep&#39;,  // this matches the first route definition from above
@@ -64,9 +64,9 @@ separate controllers for each step.</p>
 <div class="createflow"><div class="twigs-flow-provider-page twigs-flow-provider-flowprovider-createflow-page"><p>Completes the flow creation. You must invoke this function before starting a new flow with <strong>flow()</strong>.</p>
 </div></div>
 </li>
-<li><h3 id="methods_flow">flow(flwoId)</h3>
+<li><h3 id="methods_flow">flow(flowId)</h3>
 <div class="flow"><div class="twigs-flow-provider-page twigs-flow-provider-flowprovider-flow-page"><p>Starts a new flow configuration</p>
-</div><h5 id="methods_flow_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>flwoId</td><td><a href="" class="label type-hint type-hint-string">string[]</a></td><td><div class="twigs-flow-provider-page twigs-flow-provider-flowprovider-flow-page"><p>A unique id for this new flow</p>
+</div><h5 id="methods_flow_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>flowId</td><td><a href="" class="label type-hint type-hint-string">string[]</a></td><td><div class="twigs-flow-provider-page twigs-flow-provider-flowprovider-flow-page"><p>A unique id for this new flow</p>
 </div></td></tr></tbody></table><h5 id="methods_flow_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-object">object</a></td><td><div class="twigs-flow-provider-page twigs-flow-provider-flowprovider-flow-page"><p>The FlowProvider</p>
 </div></td></tr></table></div>
 </li>

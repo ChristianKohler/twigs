@@ -54,8 +54,7 @@ Here you can iterate over all menu.items.</p>
 <pre><code class="lang-html">&lt;twg-menu menu-name=&quot;main_menu&quot;&gt;&lt;/twg-menu&gt;</code></pre>
 <h5 id="description_a-more-complex-example-with-nested-menus">A more complex example with nested menus:</h5>
 <p>Each menu item can contain a list of menu item children. Each parent menu / children menu structure is nothing else than a menu item with a list of menu items as menu.items property.</p>
-<pre><code class="lang-javascript">MenuProvider.userLoadedEventName(&#39;userInitialized&#39;); //for details see below
-var mainMenu = MenuProvider.createMenu(&#39;main_menu&#39;, &#39;views/mainMenu.html&#39;)
+<pre><code class="lang-javascript">var mainMenu = MenuProvider.createMenu(&#39;main_menu&#39;, &#39;views/mainMenu.html&#39;)
 .addItem(&#39;main_menu_home&#39;, {
           text : &#39;Home&#39;,
           link: &#39;/home&#39;,
@@ -167,17 +166,6 @@ otherwise, returns undefined.</p>
 <li><h3 id="methods_removemenu">removeMenu(menuName)</h3>
 <div class="removemenu"><div class="twigs-menu-provider-page twigs-menu-provider-menuprovider-removemenu-page"><p>Removes menu with the specified menuName</p>
 </div><h5 id="methods_removemenu_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>menuName</td><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="twigs-menu-provider-page twigs-menu-provider-menuprovider-removemenu-page"><p>name of the menu</p>
-</div></td></tr></tbody></table></div>
-</li>
-<li><h3 id="methods_setuserloadedeventname">setUserLoadedEventName(userLoadedEventName)</h3>
-<div class="setuserloadedeventname"><div class="twigs-menu-provider-page twigs-menu-provider-menuprovider-setuserloadedeventname-page"><p>If the menuitems should be filtered by the current users role, a event which signals
-successfull loading of the user and his role needs to be specified. This event triggers
-a re-filtering of the menu after successful login. Otherwise the menu is always filtered
-pre login which means the user has no role yet.
-If you use twigs.security the default event name is &#39;userInitialized&#39;</p>
-</div><h5 id="methods_setuserloadedeventname_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>userLoadedEventName</td><td><a href="" class="label type-hint type-hint-string">String</a></td><td><div class="twigs-menu-provider-page twigs-menu-provider-menuprovider-setuserloadedeventname-page"><p>The name of the user successfully loaded event</p>
-<p>Example:</p>
-<pre><code class="lang-javascript">MenuProvider.setUserLoadedEventName(&#39;userInitialized&#39;);</code></pre>
 </div></td></tr></tbody></table></div>
 </li>
 </ul>

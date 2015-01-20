@@ -17,12 +17,12 @@ allows you to use multiple sortable tables within your same Controller/ View.</p
 <pre><code class="lang-html">&lt;table twg-sortableTable&gt;
  &lt;thead&gt;
   &lt;tr&gt;
-    &lt;th twg-sortable=&quot;name&quot;&gt;Name&lt;/th&gt;
-    &lt;th twg-sortable=&quot;number&quot;&gt;Number&lt;/th&gt;
+    &lt;th twg-sortable=&#39;name&#39;&gt;Name&lt;/th&gt;
+    &lt;th twg-sortable=&#39;number&#39;&gt;Number&lt;/th&gt;
   &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
-    &lt;tr ng-repeat=&quot;data in dummyData | orderBy:orderPropertyName:orderProp&quot;&gt;
+    &lt;tr ng-repeat=&#39;data in dummyData | orderBy:orderPropertyName:orderProp&#39;&gt;
       &lt;td&gt;{{data.number}}&lt;/td&gt;
       &lt;td&gt;{{data.name}}&lt;/td&gt;
     &lt;/tr&gt;
